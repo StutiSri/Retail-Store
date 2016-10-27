@@ -1,0 +1,437 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.1
+4 verbose readDependencies loading dependencies from /home/stutisrivastv/MEAN/Retail Store/package.json
+5 warn package.json @ No description
+6 warn package.json @ No repository field.
+7 warn package.json @ No README data
+8 warn package.json @ No license field.
+9 verbose install where, deps [ '/home/stutisrivastv/MEAN/Retail Store',
+9 verbose install   [ 'express',
+9 verbose install     'http-statsu',
+9 verbose install     'wagner-core',
+9 verbose install     'mongoose',
+9 verbose install     'mocha',
+9 verbose install     'superagent' ] ]
+10 verbose install where, peers [ '/home/stutisrivastv/MEAN/Retail Store', [] ]
+11 verbose installManyTop reading for lifecycle /home/stutisrivastv/MEAN/Retail Store/package.json
+12 info preinstall @
+13 verbose installManyTop reading scoped package data from /home/stutisrivastv/MEAN/Retail Store/node_modules/mongodb/package.json
+14 verbose installManyTop reading scoped package data from /home/stutisrivastv/MEAN/Retail Store/node_modules/mongoose/package.json
+15 verbose readDependencies loading dependencies from /home/stutisrivastv/MEAN/Retail Store/package.json
+16 verbose targetResolver reading package data from /home/stutisrivastv/MEAN/Retail Store/node_modules/mongodb/package.json
+17 verbose targetResolver reading package data from /home/stutisrivastv/MEAN/Retail Store/node_modules/mongoose/package.json
+18 silly cache add args [ 'mocha@2.2.4', null ]
+19 verbose cache add spec mocha@2.2.4
+20 silly cache add parsed spec Result {
+20 silly cache add   raw: 'mocha@2.2.4',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'mocha',
+20 silly cache add   rawSpec: '2.2.4',
+20 silly cache add   spec: '2.2.4',
+20 silly cache add   type: 'version' }
+21 silly addNamed mocha@2.2.4
+22 verbose addNamed "2.2.4" is a plain semver version for mocha
+23 silly mapToRegistry name mocha
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'mocha',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'mocha',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/mocha
+28 verbose addNameVersion registry:https://registry.npmjs.org/mocha not in flight; fetching
+29 silly cache add args [ 'superagent@1.2.0', null ]
+30 verbose cache add spec superagent@1.2.0
+31 silly cache add parsed spec Result {
+31 silly cache add   raw: 'superagent@1.2.0',
+31 silly cache add   scope: null,
+31 silly cache add   name: 'superagent',
+31 silly cache add   rawSpec: '1.2.0',
+31 silly cache add   spec: '1.2.0',
+31 silly cache add   type: 'version' }
+32 silly addNamed superagent@1.2.0
+33 verbose addNamed "1.2.0" is a plain semver version for superagent
+34 silly mapToRegistry name superagent
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry data Result {
+37 silly mapToRegistry   raw: 'superagent',
+37 silly mapToRegistry   scope: null,
+37 silly mapToRegistry   name: 'superagent',
+37 silly mapToRegistry   rawSpec: '',
+37 silly mapToRegistry   spec: 'latest',
+37 silly mapToRegistry   type: 'tag' }
+38 silly mapToRegistry uri https://registry.npmjs.org/superagent
+39 verbose addNameVersion registry:https://registry.npmjs.org/superagent not in flight; fetching
+40 silly cache add args [ 'express@4.12.3', null ]
+41 verbose cache add spec express@4.12.3
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'express@4.12.3',
+42 silly cache add   scope: null,
+42 silly cache add   name: 'express',
+42 silly cache add   rawSpec: '4.12.3',
+42 silly cache add   spec: '4.12.3',
+42 silly cache add   type: 'version' }
+43 silly addNamed express@4.12.3
+44 verbose addNamed "4.12.3" is a plain semver version for express
+45 silly mapToRegistry name express
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'express',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'express',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/express
+50 verbose addNameVersion registry:https://registry.npmjs.org/express not in flight; fetching
+51 silly cache add args [ 'http-statsu@0.1.8', null ]
+52 verbose cache add spec http-statsu@0.1.8
+53 silly cache add parsed spec Result {
+53 silly cache add   raw: 'http-statsu@0.1.8',
+53 silly cache add   scope: null,
+53 silly cache add   name: 'http-statsu',
+53 silly cache add   rawSpec: '0.1.8',
+53 silly cache add   spec: '0.1.8',
+53 silly cache add   type: 'version' }
+54 silly addNamed http-statsu@0.1.8
+55 verbose addNamed "0.1.8" is a plain semver version for http-statsu
+56 silly mapToRegistry name http-statsu
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'http-statsu',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   name: 'http-statsu',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/http-statsu
+61 verbose addNameVersion registry:https://registry.npmjs.org/http-statsu not in flight; fetching
+62 silly cache add args [ 'wagner-core@0.1.0', null ]
+63 verbose cache add spec wagner-core@0.1.0
+64 silly cache add parsed spec Result {
+64 silly cache add   raw: 'wagner-core@0.1.0',
+64 silly cache add   scope: null,
+64 silly cache add   name: 'wagner-core',
+64 silly cache add   rawSpec: '0.1.0',
+64 silly cache add   spec: '0.1.0',
+64 silly cache add   type: 'version' }
+65 silly addNamed wagner-core@0.1.0
+66 verbose addNamed "0.1.0" is a plain semver version for wagner-core
+67 silly mapToRegistry name wagner-core
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'wagner-core',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   name: 'wagner-core',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/wagner-core
+72 verbose addNameVersion registry:https://registry.npmjs.org/wagner-core not in flight; fetching
+73 verbose already installed skipping mongoose@4.5.5 /home/stutisrivastv/MEAN/Retail Store
+74 verbose request uri https://registry.npmjs.org/superagent
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 7:44:26 AM
+77 verbose request id e4d5b98f1849a078
+78 http request GET https://registry.npmjs.org/superagent
+79 verbose request uri https://registry.npmjs.org/express
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 7:44:26 AM
+82 http request GET https://registry.npmjs.org/express
+83 verbose request uri https://registry.npmjs.org/http-statsu
+84 verbose request no auth needed
+85 info attempt registry request try #1 at 7:44:26 AM
+86 http request GET https://registry.npmjs.org/http-statsu
+87 verbose request uri https://registry.npmjs.org/wagner-core
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 7:44:26 AM
+90 http request GET https://registry.npmjs.org/wagner-core
+91 verbose request uri https://registry.npmjs.org/mocha
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 7:44:27 AM
+94 verbose etag "2FJMO8OPJEUJZRPK89Q6SN0SM"
+95 http request GET https://registry.npmjs.org/mocha
+96 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+97 http 304 https://registry.npmjs.org/mocha
+98 verbose headers { date: 'Thu, 27 Oct 2016 02:14:29 GMT',
+98 verbose headers   via: '1.1 varnish',
+98 verbose headers   'cache-control': 'max-age=300',
+98 verbose headers   etag: '"2FJMO8OPJEUJZRPK89Q6SN0SM"',
+98 verbose headers   age: '283',
+98 verbose headers   connection: 'keep-alive',
+98 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+98 verbose headers   'x-cache': 'HIT',
+98 verbose headers   'x-cache-hits': '4',
+98 verbose headers   'x-timer': 'S1477534469.094338,VS0,VE0',
+98 verbose headers   vary: 'Accept-Encoding' }
+99 silly get cb [ 304,
+99 silly get   { date: 'Thu, 27 Oct 2016 02:14:29 GMT',
+99 silly get     via: '1.1 varnish',
+99 silly get     'cache-control': 'max-age=300',
+99 silly get     etag: '"2FJMO8OPJEUJZRPK89Q6SN0SM"',
+99 silly get     age: '283',
+99 silly get     connection: 'keep-alive',
+99 silly get     'x-served-by': 'cache-sin6925-SIN',
+99 silly get     'x-cache': 'HIT',
+99 silly get     'x-cache-hits': '4',
+99 silly get     'x-timer': 'S1477534469.094338,VS0,VE0',
+99 silly get     vary: 'Accept-Encoding' } ]
+100 verbose etag https://registry.npmjs.org/mocha from cache
+101 verbose get saving mocha to /home/stutisrivastv/.npm/registry.npmjs.org/mocha/.cache.json
+102 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+103 http 200 https://registry.npmjs.org/wagner-core
+104 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+104 verbose headers   etag: '"1LPTLTDNJNTG1LCUA4DSY5JN8"',
+104 verbose headers   'content-type': 'application/json',
+104 verbose headers   'content-encoding': 'gzip',
+104 verbose headers   'cache-control': 'max-age=300',
+104 verbose headers   'content-length': '4810',
+104 verbose headers   'accept-ranges': 'bytes',
+104 verbose headers   date: 'Thu, 27 Oct 2016 02:14:29 GMT',
+104 verbose headers   via: '1.1 varnish',
+104 verbose headers   age: '247',
+104 verbose headers   connection: 'keep-alive',
+104 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+104 verbose headers   'x-cache': 'HIT',
+104 verbose headers   'x-cache-hits': '1',
+104 verbose headers   'x-timer': 'S1477534469.083705,VS0,VE0',
+104 verbose headers   vary: 'Accept-Encoding' }
+105 silly get cb [ 200,
+105 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+105 silly get     etag: '"1LPTLTDNJNTG1LCUA4DSY5JN8"',
+105 silly get     'content-type': 'application/json',
+105 silly get     'content-encoding': 'gzip',
+105 silly get     'cache-control': 'max-age=300',
+105 silly get     'content-length': '4810',
+105 silly get     'accept-ranges': 'bytes',
+105 silly get     date: 'Thu, 27 Oct 2016 02:14:29 GMT',
+105 silly get     via: '1.1 varnish',
+105 silly get     age: '247',
+105 silly get     connection: 'keep-alive',
+105 silly get     'x-served-by': 'cache-sin6922-SIN',
+105 silly get     'x-cache': 'HIT',
+105 silly get     'x-cache-hits': '1',
+105 silly get     'x-timer': 'S1477534469.083705,VS0,VE0',
+105 silly get     vary: 'Accept-Encoding' } ]
+106 verbose get saving wagner-core to /home/stutisrivastv/.npm/registry.npmjs.org/wagner-core/.cache.json
+107 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+108 silly mapToRegistry name wagner-core
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry data Result {
+111 silly mapToRegistry   raw: 'wagner-core',
+111 silly mapToRegistry   scope: null,
+111 silly mapToRegistry   name: 'wagner-core',
+111 silly mapToRegistry   rawSpec: '',
+111 silly mapToRegistry   spec: 'latest',
+111 silly mapToRegistry   type: 'tag' }
+112 silly mapToRegistry uri https://registry.npmjs.org/wagner-core
+113 verbose addRemoteTarball https://registry.npmjs.org/wagner-core/-/wagner-core-0.1.0.tgz not in flight; adding
+114 verbose addRemoteTarball [ 'https://registry.npmjs.org/wagner-core/-/wagner-core-0.1.0.tgz',
+114 verbose addRemoteTarball   '8d0f647323872e2116efadf597b085ae74ca3140' ]
+115 info retry fetch attempt 1 at 7:44:29 AM
+116 info attempt registry request try #1 at 7:44:29 AM
+117 http fetch GET https://registry.npmjs.org/wagner-core/-/wagner-core-0.1.0.tgz
+118 http 404 https://registry.npmjs.org/http-statsu
+119 verbose headers { 'content-type': 'application/json',
+119 verbose headers   'cache-control': 'max-age=0',
+119 verbose headers   'content-length': '2',
+119 verbose headers   'accept-ranges': 'bytes',
+119 verbose headers   date: 'Thu, 27 Oct 2016 02:14:29 GMT',
+119 verbose headers   via: '1.1 varnish',
+119 verbose headers   age: '0',
+119 verbose headers   connection: 'keep-alive',
+119 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+119 verbose headers   'x-cache': 'MISS',
+119 verbose headers   'x-cache-hits': '0',
+119 verbose headers   'x-timer': 'S1477534469.088624,VS0,VE234',
+119 verbose headers   vary: 'Accept-Encoding' }
+120 silly get cb [ 404,
+120 silly get   { 'content-type': 'application/json',
+120 silly get     'cache-control': 'max-age=0',
+120 silly get     'content-length': '2',
+120 silly get     'accept-ranges': 'bytes',
+120 silly get     date: 'Thu, 27 Oct 2016 02:14:29 GMT',
+120 silly get     via: '1.1 varnish',
+120 silly get     age: '0',
+120 silly get     connection: 'keep-alive',
+120 silly get     'x-served-by': 'cache-sin6925-SIN',
+120 silly get     'x-cache': 'MISS',
+120 silly get     'x-cache-hits': '0',
+120 silly get     'x-timer': 'S1477534469.088624,VS0,VE234',
+120 silly get     vary: 'Accept-Encoding' } ]
+121 silly cache afterAdd mocha@2.2.4
+122 verbose afterAdd /home/stutisrivastv/.npm/mocha/2.2.4/package/package.json not in flight; writing
+123 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+124 verbose afterAdd /home/stutisrivastv/.npm/mocha/2.2.4/package/package.json written
+125 http 200 https://registry.npmjs.org/superagent
+126 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+126 verbose headers   etag: '"E7XVEAP2IT393TJABA324FVMN"',
+126 verbose headers   'content-type': 'application/json',
+126 verbose headers   'content-encoding': 'gzip',
+126 verbose headers   'cache-control': 'max-age=300',
+126 verbose headers   'content-length': '17410',
+126 verbose headers   'accept-ranges': 'bytes',
+126 verbose headers   date: 'Thu, 27 Oct 2016 02:14:29 GMT',
+126 verbose headers   via: '1.1 varnish',
+126 verbose headers   age: '124',
+126 verbose headers   connection: 'keep-alive',
+126 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+126 verbose headers   'x-cache': 'HIT',
+126 verbose headers   'x-cache-hits': '1',
+126 verbose headers   'x-timer': 'S1477534469.086687,VS0,VE0',
+126 verbose headers   vary: 'Accept-Encoding' }
+127 silly get cb [ 200,
+127 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+127 silly get     etag: '"E7XVEAP2IT393TJABA324FVMN"',
+127 silly get     'content-type': 'application/json',
+127 silly get     'content-encoding': 'gzip',
+127 silly get     'cache-control': 'max-age=300',
+127 silly get     'content-length': '17410',
+127 silly get     'accept-ranges': 'bytes',
+127 silly get     date: 'Thu, 27 Oct 2016 02:14:29 GMT',
+127 silly get     via: '1.1 varnish',
+127 silly get     age: '124',
+127 silly get     connection: 'keep-alive',
+127 silly get     'x-served-by': 'cache-sin6923-SIN',
+127 silly get     'x-cache': 'HIT',
+127 silly get     'x-cache-hits': '1',
+127 silly get     'x-timer': 'S1477534469.086687,VS0,VE0',
+127 silly get     vary: 'Accept-Encoding' } ]
+128 verbose get saving superagent to /home/stutisrivastv/.npm/registry.npmjs.org/superagent/.cache.json
+129 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+130 silly mapToRegistry name superagent
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry data Result {
+133 silly mapToRegistry   raw: 'superagent',
+133 silly mapToRegistry   scope: null,
+133 silly mapToRegistry   name: 'superagent',
+133 silly mapToRegistry   rawSpec: '',
+133 silly mapToRegistry   spec: 'latest',
+133 silly mapToRegistry   type: 'tag' }
+134 silly mapToRegistry uri https://registry.npmjs.org/superagent
+135 verbose addRemoteTarball https://registry.npmjs.org/superagent/-/superagent-1.2.0.tgz not in flight; adding
+136 verbose addRemoteTarball [ 'https://registry.npmjs.org/superagent/-/superagent-1.2.0.tgz',
+136 verbose addRemoteTarball   'aac262533c1ec5538144a11371cd36f244a574fd' ]
+137 info retry fetch attempt 1 at 7:44:29 AM
+138 info attempt registry request try #1 at 7:44:29 AM
+139 http fetch GET https://registry.npmjs.org/superagent/-/superagent-1.2.0.tgz
+140 http fetch 200 https://registry.npmjs.org/superagent/-/superagent-1.2.0.tgz
+141 http fetch 200 https://registry.npmjs.org/wagner-core/-/wagner-core-0.1.0.tgz
+142 silly fetchAndShaCheck shasum aac262533c1ec5538144a11371cd36f244a574fd
+143 verbose addTmpTarball /tmp/npm-5734-04d2cbe5/registry.npmjs.org/superagent/-/superagent-1.2.0.tgz not in flight; adding
+144 verbose addTmpTarball already have metadata; skipping unpack for superagent@1.2.0
+145 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+146 silly cache afterAdd superagent@1.2.0
+147 verbose afterAdd /home/stutisrivastv/.npm/superagent/1.2.0/package/package.json not in flight; writing
+148 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+149 verbose afterAdd /home/stutisrivastv/.npm/superagent/1.2.0/package/package.json written
+150 silly fetchAndShaCheck shasum 8d0f647323872e2116efadf597b085ae74ca3140
+151 verbose addTmpTarball /tmp/npm-5734-04d2cbe5/registry.npmjs.org/wagner-core/-/wagner-core-0.1.0.tgz not in flight; adding
+152 verbose addTmpTarball already have metadata; skipping unpack for wagner-core@0.1.0
+153 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+154 silly cache afterAdd wagner-core@0.1.0
+155 verbose afterAdd /home/stutisrivastv/.npm/wagner-core/0.1.0/package/package.json not in flight; writing
+156 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+157 verbose afterAdd /home/stutisrivastv/.npm/wagner-core/0.1.0/package/package.json written
+158 info attempt registry request try #2 at 7:44:38 AM
+159 http request GET https://registry.npmjs.org/express
+160 http 200 https://registry.npmjs.org/express
+161 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+161 verbose headers   etag: '"F4VAJ7D1D2JP2XECBHPYI33AT"',
+161 verbose headers   'content-type': 'application/json',
+161 verbose headers   'content-encoding': 'gzip',
+161 verbose headers   'cache-control': 'max-age=300',
+161 verbose headers   'content-length': '56690',
+161 verbose headers   'accept-ranges': 'bytes',
+161 verbose headers   date: 'Thu, 27 Oct 2016 02:14:38 GMT',
+161 verbose headers   via: '1.1 varnish',
+161 verbose headers   age: '241',
+161 verbose headers   connection: 'keep-alive',
+161 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+161 verbose headers   'x-cache': 'HIT',
+161 verbose headers   'x-cache-hits': '9',
+161 verbose headers   'x-timer': 'S1477534478.604596,VS0,VE0',
+161 verbose headers   vary: 'Accept-Encoding' }
+162 silly get cb [ 200,
+162 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+162 silly get     etag: '"F4VAJ7D1D2JP2XECBHPYI33AT"',
+162 silly get     'content-type': 'application/json',
+162 silly get     'content-encoding': 'gzip',
+162 silly get     'cache-control': 'max-age=300',
+162 silly get     'content-length': '56690',
+162 silly get     'accept-ranges': 'bytes',
+162 silly get     date: 'Thu, 27 Oct 2016 02:14:38 GMT',
+162 silly get     via: '1.1 varnish',
+162 silly get     age: '241',
+162 silly get     connection: 'keep-alive',
+162 silly get     'x-served-by': 'cache-sin6925-SIN',
+162 silly get     'x-cache': 'HIT',
+162 silly get     'x-cache-hits': '9',
+162 silly get     'x-timer': 'S1477534478.604596,VS0,VE0',
+162 silly get     vary: 'Accept-Encoding' } ]
+163 verbose get saving express to /home/stutisrivastv/.npm/registry.npmjs.org/express/.cache.json
+164 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+165 silly mapToRegistry name express
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry data Result {
+168 silly mapToRegistry   raw: 'express',
+168 silly mapToRegistry   scope: null,
+168 silly mapToRegistry   name: 'express',
+168 silly mapToRegistry   rawSpec: '',
+168 silly mapToRegistry   spec: 'latest',
+168 silly mapToRegistry   type: 'tag' }
+169 silly mapToRegistry uri https://registry.npmjs.org/express
+170 verbose addRemoteTarball https://registry.npmjs.org/express/-/express-4.12.3.tgz not in flight; adding
+171 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.12.3.tgz',
+171 verbose addRemoteTarball   '6b9d94aec5ae03270d86d390c277a8c5a5ad0ee2' ]
+172 info retry fetch attempt 1 at 7:44:40 AM
+173 info attempt registry request try #1 at 7:44:40 AM
+174 http fetch GET https://registry.npmjs.org/express/-/express-4.12.3.tgz
+175 http fetch 200 https://registry.npmjs.org/express/-/express-4.12.3.tgz
+176 silly fetchAndShaCheck shasum 6b9d94aec5ae03270d86d390c277a8c5a5ad0ee2
+177 verbose addTmpTarball /tmp/npm-5734-04d2cbe5/registry.npmjs.org/express/-/express-4.12.3.tgz not in flight; adding
+178 verbose addTmpTarball already have metadata; skipping unpack for express@4.12.3
+179 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+180 silly cache afterAdd express@4.12.3
+181 verbose afterAdd /home/stutisrivastv/.npm/express/4.12.3/package/package.json not in flight; writing
+182 verbose correctMkdir /home/stutisrivastv/.npm correctMkdir not in flight; initializing
+183 verbose afterAdd /home/stutisrivastv/.npm/express/4.12.3/package/package.json written
+184 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/http-statsu
+184 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+184 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+184 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+184 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:200:22)
+184 verbose stack     at emitTwo (events.js:87:13)
+184 verbose stack     at Request.emit (events.js:172:7)
+184 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+184 verbose stack     at emitOne (events.js:82:20)
+184 verbose stack     at Request.emit (events.js:169:7)
+184 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:988:12)
+185 verbose statusCode 404
+186 verbose pkgid http-statsu
+187 verbose cwd /home/stutisrivastv/MEAN/Retail Store
+188 error Linux 4.4.0-45-generic
+189 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+190 error node v4.6.1
+191 error npm  v2.15.9
+192 error code E404
+193 error 404 Registry returned 404 for GET on https://registry.npmjs.org/http-statsu
+193 error 404
+193 error 404 'http-statsu' is not in the npm registry.
+193 error 404 You should bug the author to publish it (or use the name yourself!)
+193 error 404
+193 error 404 Note that you can also install from a
+193 error 404 tarball, folder, http url, or git url.
+194 verbose exit [ 1, true ]
